@@ -5,6 +5,7 @@ public class Attractie {
    public String attractieNaam;
    public double prijs;
    public int oppervlakte;
+   public int opbrengst;
 
    public Attractie() {
    }
@@ -16,5 +17,6 @@ public class Attractie {
 
    public void attractieDraaien() {
       System.out.println("De attractie " + attractieNaam + " draait!");
+      opbrengst += prijs;
    }
 }
