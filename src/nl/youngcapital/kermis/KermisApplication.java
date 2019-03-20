@@ -16,7 +16,4 @@ public class KermisApplication {
 			botsautos.attractieDraaien();
 		}
 	}
-	
-	
-
 }
