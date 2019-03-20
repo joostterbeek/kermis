@@ -9,6 +9,11 @@ public class Attractie {
    public Attractie() {
    }
    
+   public Attractie(String attractieNaam, double price) {
+     this.attractieNaam = attractieNaam;
+     this.prijs = price;
+   }
+
    public void attractieDraaien() {
       System.out.println("De attractie " + attractieNaam + " draait!");
    }
